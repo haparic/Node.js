@@ -1,0 +1,27 @@
+1. What is npm and what does it do?
+the Node.js Package Manager. It is a command line tool that is used to install packages. It contains a set of files that have the basic building blocks from which applications are built. They are used to add features and functionality to node applications 
+
+2. What kind of information does package.json hold?
+It explains how the application is structured. it contains the name of the directory as well as other info such as version and dependencies.
+
+3. Google another Node package. Using the demo directory run npm install <theNameOfThePackage> --save. Check the contents of your package.json file to make sure that the dependencies list the name of the Node package.
+installed sax
+
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "Demo for node.js setup.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "Hugo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sax": "^1.2.4"
+  }
+}
