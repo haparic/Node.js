@@ -2,6 +2,8 @@
 go to the URL bar and enter  chrome://inspect in it. Then click on open dedicated DevTools for Node.
 
 2. What are the main differences between the regular Chrome DevTools and the DevTools for Node?
+chrome devtools is for front end development. It allows one to simulate the front end for diferent typees of environments such as a mobile version or a version with lower network speed. 
+node DevTools debugs the node server app. It does not do css or ui testing and it is geared more towards server performance. It cn check how much back end resources are spent.
 
 DevTools for Node use --inspect to call a JavaScript file.
 
